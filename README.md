@@ -5,7 +5,7 @@
 
 - Passo 1: ``` sudo apt update ```
 - Passo 2:  ``` sudo apt install steghide ```
-- Passo3:  ``` steghide embed -cf fotorodas.jpg -ef senhas.txt ```
+- Passo3:  ``` steghide embed -cf fotocachorro.jpg -ef senhas.txt ```
   
 
 embed = coloca um arquivo dentro do outro
@@ -16,8 +16,8 @@ embed = coloca um arquivo dentro do outro
 
 ### Depois para verificar:
 
-``` steghide info fotorodas.jpg ```
+``` steghide info fotocachorro.jpg ```
 
 ### Para extrair:
 
-``` steghide extract -sf fotorodas.jpg ```
+``` steghide extract -sf fotocachorro.jpg ```
